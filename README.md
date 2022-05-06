@@ -1,2 +1,2 @@
 # WebScrapping
-Web Scrapping dos dados de apostas de cada rodada do site Blaze utilizando Jquery em conjunto com a API Sheetdb e Google Sheets 
+Projeto com o objetivo de coletar dados de rodadas em um site de apostas e alimentar uma rede de inteligência artificial para prever o próximo resultado da jogada. Utilizei Jquery com o mutation observer para disparar um evento a cada término de rodada. Após o disparo do evento o Java Script injetado na página (através de uma extensão do chrome) coleta as informações dos elementos alvos, faz o tratamento dos dados e os envia para uma planilha Google atraves de uma API chamada Sheetdb.
