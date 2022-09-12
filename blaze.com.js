@@ -1,22 +1,22 @@
 ////////////////////////////////////////////////////////////////////////////////////
-//// Este projeto tem como objetivo coletar dados de cada rodada do				////
-//// jogo de apostas Crash, do site https://blaze.com/pt/, para					////
-//// salva-los em uma planilha google, usando Jquery, Axios e a					////
+//// Este projeto tem como objetivo coletar dados de cada rodada do		////
+//// jogo de apostas Crash, do site https://blaze.com/pt/, para			////
+//// salva-los em uma planilha google, usando Jquery, Axios e a			////
 //// API https://sheetdb.io/, que faz a autenticação e envio de dados para a  	////
 //// planilha. Ao termino de cada rodada o script coleta os dados como valor 	////
-//// do Crash, quantidade de jogadores que apostaram naquela rodada, 			////
-//// valor total de apostas e lucro total dos jogadores na rodada.				////
-//// Este script deve ser injetado diretamente na página usando alguma 			////
-//// extenção de navegador como, por exemplo, a "User Javascript And Css" 		////
+//// do Crash, quantidade de jogadores que apostaram naquela rodada, 		////
+//// valor total de apostas e lucro total dos jogadores na rodada.		////
+//// Este script deve ser injetado diretamente na página usando alguma 		////
+//// extenção de navegador como, por exemplo, a "User Javascript And Css" 	////
 //// (Link para download no Chrome a baixo), desde que seja possível carregar 	////
-//// as bibliotecas Jquery e Axios diretamente na extenção. Caso não seja 		////
-//// possível carrega-las, deverão ser importadas diretamente neste script.		////
+//// as bibliotecas Jquery e Axios diretamente na extenção. Caso não seja 	////
+//// possível carrega-las, deverão ser importadas diretamente neste script.	////
 ////////////////////////////////////////////////////////////////////////////////////
-//// Configurações: 															////
-//// qtdDeRodadas -> Seta quantas rodadas o script fará a captura. 				////
+//// Configurações: 								////
+//// qtdDeRodadas -> Seta quantas rodadas o script fará a captura. 		////
 //// target -> Seleciona o elemento do DOM para o observer escutar as mudanças.	////
-//// config -> Seta as configurações do observer. 								////
-//// sheetDBAuth -> Dados de autenticação fornecidos pela API SheetDB. 			////
+//// config -> Seta as configurações do observer. 				////
+//// sheetDBAuth -> Dados de autenticação fornecidos pela API SheetDB. 		////
 ////////////////////////////////////////////////////////////////////////////////////
 
 //// Link para a extenção User Javascript And Css do Chrome:
